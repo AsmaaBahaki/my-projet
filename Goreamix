@@ -1,0 +1,1111 @@
+@import url("https://fonts.googleapis.com/css2?family=Sriracha&display=swap");
+
+body{
+  box-sizing: border-box;  
+}
+
+*{
+  margin: 0;
+  padding: 0; 
+}
+
+/* CSS for header */
+.header {
+  background-image: url(https://i.pinimg.com/originals/ac/ef/de/acefde324bfafb5e6eb7ae77f8d5e0a9.jpg);
+  height: 948px;
+  width: 1422px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: -10px;
+}
+
+.header .logo { 
+  font-size: 25px;
+  font-family: "Sriracha", cursive;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  margin-left: 30px;
+  margin-top: 34px;
+}
+
+.header h5{
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-size: large;
+    margin-left: 530px;
+    margin-top: 380px;
+}
+
+.header h1{
+    color: white;
+    font-family: 'Lato', sans-serif;
+    margin-left: 320px;
+    font-size: 70px;
+}
+
+.header h4{
+    color: grey;
+    margin-left: 460px;
+}
+
+.btn{
+    background-color: orangered;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 570px;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.4)
+}
+
+.nav-items {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 995px;
+  margin-right: 690px;
+}
+
+.nav-items a {
+  margin-top: -1510px;
+  text-decoration: none;
+  color: white;   
+  padding: 3px 15px;
+  width: -87px;
+}
+
+/* CSS for div */
+.col{
+  background-color: gainsboro;
+  margin-top: -55px;
+  height: 588px;
+  width: 1427px;
+}
+
+.col h1{
+  margin-top: 100px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 280%;
+  margin-left: 700px;
+}
+
+.col h2{
+  margin-top: 36px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: orangered;
+  margin-left: 700px;
+}
+
+.col p{
+  color: gray;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-left: 700px;
+  margin-top: 50px;
+}
+
+.col img{
+  margin-top: -360px;
+  width: 540px;
+  height: 500px;
+}
+
+.height h4{
+  color: orangered;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-left: 570px;
+  font-size: 19px;
+  margin-top: 180px;
+}
+
+.height h1{
+  margin-left: 400px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;  
+  font-size: 39px;
+}
+
+.height img{
+  margin-left: 610px;
+}
+
+.weight img{
+  height: 341px;
+  width: 390px;
+  margin-top: 90px;
+  margin-left: 100px;
+}
+
+.weight h2{
+  font-family: 'Lato', sans-serif;
+  font-size: 17px;
+  margin-left: 100px;
+  margin-top: 30px;
+}
+
+.weight h3{
+  color: orangered;
+  font-size: 20px;
+  margin-left: 380px;
+  margin-top: -40px;
+}
+
+.corner{
+  margin-left: 529px;
+  margin-top: -400px;
+}
+
+.corner img{
+  width: 379px;
+  height: 346px;
+  margin-top: -5px;
+}
+
+.corner h2{
+  font-family: 'Lato', sans-serif;
+  font-size: 17px;
+  margin-left: 2px;
+  margin-top: 23px;
+}
+
+.corner h3{
+  color: orangered;
+  font-size: 20px;
+  margin-left: 287px;
+  margin-top: -39px;
+}
+
+.border{
+  margin-left: 950px;
+  margin-top: -402px;
+}
+
+.border img{
+  width: 379px;
+  height: 343px;
+}
+
+.border h2{
+  font-family: 'Lato', sans-serif;
+  font-size: 17px;
+  margin-left: 2px;
+  margin-top: 23px;
+}
+
+.border h3{
+  color: orangered;
+  font-size: 20px;
+  margin-left: 280px;
+  margin-top: -39px;
+}
+
+.menu{
+  width: 1430px;
+  margin-top: 240px;
+  background-image: url(https://template59457.motopreview.com/mt-demo/59400/59457/mt-content/uploads/2017/02/mt-0863-home-content-bg.jpg);
+  height: 420px;
+}
+
+.menu-dejeuner{
+  background-color: aliceblue;
+  margin: 0;  
+  border: 1px solid chocolate;  
+  padding: 0; 
+  height: 600px;
+  width: 1259px;
+  margin-top: -520px;
+  margin-left: 80px;
+}
+
+.menu-dejeuner h3{
+  color: orangered;
+  margin-left: 530px;
+}
+
+.menu-dejeuner h1{
+  margin-left: 445px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.img1 img{
+  border-radius: 30px;
+  width: 80px;
+  height: 70px;
+  margin-top: 50px;
+  margin-left: 80px;
+}
+
+.img1 h2{
+  font-family: 'Lato', sans-serif;
+  font-size: 13px;
+  margin-left: 190px;
+  margin-top: -59px;
+}
+
+.img1 h3{
+  color: orangered;
+  font-size: 19px;
+  margin-top: -34px;
+  margin-left: 492px;
+}
+
+.img1 h4{
+  color: gray;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  margin-left: 190px;
+  margin-top: -10px;
+}
+
+.img2 img{
+  border-radius: 30px;
+  width: 80px;
+  height: 70px;
+  margin-top: 50px;
+  margin-left: 80px;
+}
+
+.img2 h2{
+  font-family: 'Lato', sans-serif;
+  font-size: 13px;
+  margin-left: 190px;
+  margin-top: -59px;
+}
+
+.img2 h3{
+  color: orangered;
+  font-size: 19px;
+  margin-top: -34px;
+  margin-left: 492px;
+}
+
+.img2 h4{
+  color: gray;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  margin-left: 190px;
+  margin-top: -10px;
+}
+
+.img3 img{
+  border-radius: 30px;
+  width: 80px;
+  height: 70px;
+  margin-top: 47px;
+  margin-left: 80px;
+}
+
+.img3 h2{
+  font-family: 'Lato', sans-serif;
+  font-size: 13px;
+  margin-left: 190px;
+  margin-top: -59px;
+}
+
+.img3 h3{
+  color: orangered;
+  font-size: 19px;
+  margin-top: -34px;
+  margin-left: 492px;
+}
+
+.img3 h4{
+  color: gray;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  margin-left: 190px;
+  margin-top: -10px;
+}
+
+.img4 img{
+  border-radius: 30px;
+  width: 80px;
+  height: 70px;
+  margin-top: 32px;
+  margin-left: 80px;
+}
+
+.img4 h2{
+  font-family: 'Lato', sans-serif;
+  font-size: 13px;
+  margin-left: 190px;
+  margin-top: -59px;
+}
+
+.img4 h3{
+  color: orangered;
+  font-size: 19px;
+  margin-top: -34px;
+  margin-left: 492px;
+}
+
+.img4 h4{
+  color: gray;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  margin-left: 190px;
+  margin-top: -10px;
+}
+
+.img5 img{
+  border-radius: 30px;
+  width: 80px;
+  margin: 317px;
+  height: 70px;
+  margin-top: -470px;
+  margin-left: 764px;
+}
+
+.img5 h2{
+  font-family: 'Lato', sans-serif;
+  font-size: 13px;
+  margin-left: 870px;
+  margin-top: -429px;
+}
+
+.img5 h3{
+  color: orangered;
+  font-size: 19px;
+  margin-top: -34px;
+  margin-left: 1134px;
+}
+
+.img5 h4{
+  color: gray;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  margin-left: 870px;
+  margin-top: -10px;
+}
+
+.img6 img{
+  border-radius: 30px;
+  width: 80px;
+  margin: 317px;
+  height: 76px;
+  margin-top: -310px;
+  margin-left: 765px;
+}
+
+.img6 h2{
+  font-family: 'Lato', sans-serif;
+  font-size: 13px;
+  margin-left: 870px;
+  margin-top: -378px;
+}
+
+.img6 h3{
+  color: orangered;
+  font-size: 19px;
+  margin-top: -34px;
+  margin-left: 1134px;
+}
+
+.img6 h4{
+  color: gray;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  margin-top: -10px;
+  margin-left: 870px;
+}
+
+.img7 img{
+  border-radius: 30px;
+  width: 80px;
+  margin: 317px;
+  height: 76px;
+  margin-top: -210px;
+  margin-left: 765px;
+}
+
+.img7 h2{
+  font-family: 'Lato', sans-serif;
+  font-size: 13px;
+  margin-left: 870px;
+  margin-top: -388px;
+}
+
+.img7 h3{
+  color: orangered;
+  font-size: 19px;
+  margin-top: -37px;
+  margin-left: 1134px;
+}
+
+.img7 h4{
+  color: gray;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  margin-top: -7px;
+  margin-left: 870px;
+}
+
+.img8 img{
+  border-radius: 30px;
+  width: 80px;
+  margin: 317px;
+  height: 76px;
+  margin-top: -110px;
+  margin-left: 765px;
+}
+
+.img8 h2{
+  font-family: 'Lato', sans-serif;
+  font-size: 13px;
+  margin-left: 870px;
+  margin-top: -378px;
+}
+
+.img8 h3{
+  color: orangered;
+  font-size: 19px;
+  margin-top: -37px;
+  margin-left: 1134px;
+}
+
+.img8 h4{
+  color: gray;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  margin-left: 870px;
+  margin-top: -10px;
+}
+
+.chais h3{
+  color: orangered;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-top: 180px;
+  margin-left: 622px;
+}
+
+.chais h1{
+  margin-left: 482px;
+}
+
+.img9 img{
+  margin-top: 92px;
+  margin-left: 80px;
+  height: 480px;
+  width: 393px;
+}
+
+.img10 img{
+  margin: 134px;
+  margin-top: -484px;
+  margin-left: 500px;
+  height: 480px;
+  width: 393px;
+}
+
+.img11 img{
+  margin: 174px;
+  margin-top: -619px;
+  margin-left: 920px;
+  height: 480px;
+  width: 393px;
+}
+
+.bil h1{
+  margin-left: 77px;
+  margin-top: -126px;
+  font-size: 19px;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.bil h3{
+  color: gray;
+  font-family: Georgia, Times, serif;
+  font-size: 12px;
+  margin-left: 77px;
+  margin-top: 7px;
+}
+
+.bil h2{
+  color: orangered;
+  margin-left: 77px;
+}
+
+.bil h4{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: grey;
+  margin-left: 77px;
+  margin-top: 38px;
+  font-size: 15px;
+}
+
+.bil .forget-pass {
+  text-decoration: none;
+  margin-top: 90%;
+  margin-left: 333px;
+  font: bold;  
+  font-family: Georgia, serif;  
+  font-weight: 900;
+  font-style: normal;
+  color: black;
+}
+
+.net h1{
+  margin-left: 500px;
+  margin-top: -249px;
+  font-size: 19px;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.net h3{
+  color: gray;
+  font-family: Georgia, Times, serif;
+  font-size: 12px;
+  margin-left: 500px;
+  margin-top: 7px;
+}
+
+.net h2{
+  color: orangered;
+  margin-left: 500px;
+}
+
+.net h4{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: grey;
+  margin-left: 500px;
+  margin-top: 38px;
+  font-size: 15px;
+}
+
+.net .forget-pass {
+  text-decoration: none;
+  margin-top: 90%;
+  margin-left: 756px;
+  font: bold;  
+  font-family: Georgia, serif;  
+  font-weight: 900;
+  font-style: normal;
+  color: black;
+}
+
+.our h1{
+  margin-left: 920px;
+  margin-top: -259px;
+  font-size: 19px;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.our h3{
+  color: gray;
+  font-family: Georgia, Times, serif;
+  font-size: 12px;
+  margin-left: 920px;
+  margin-top: 7px;
+}
+
+.our h2{
+  color: orangered;
+  margin-left: 920px;
+}
+
+.our h4{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: grey;
+  margin-left: 920px;
+  margin-top: 38px;
+  font-size: 15px;
+}
+
+.our .forget-pass{
+  text-decoration: none;
+  margin-top: 90%;
+  margin-left: 1186px;
+  font: bold;  
+  font-family: Georgia, serif;  
+  font-weight: 900;
+  font-style: normal;
+  color: black;
+}
+
+.not{
+  margin-top: 90px;
+  width: 1482px;
+  height: 950px;
+  background-color: #434f53;
+}
+
+.not h3{
+  padding: 90px;
+  color: darkorange;
+  font-family: Georgia, 'Times New Roman', Times, serif;  
+  margin-left: 530px;
+}
+
+.not h1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: white;
+  margin-left: 400px;
+  margin-top: -70px;
+}
+
+.row{
+  display: flex;
+}
+
+.container{
+  width: 20%;
+  margin-top: -390px;
+}
+
+.container img{
+  width: 100%;
+  margin-top: -590%;
+}
+
+.row .container .img12:focus,
+.row .container .img12:hover{
+  transform: scale(1.1);
+  z-index: 1;
+}
+
+.row .container .img13:focus,
+.row .container .img13:hover{
+  transform: scale(1.1);
+  z-index: 1;
+}
+
+.row .container .img14:focus,
+.row .container .img14:hover{
+  transform: scale(1.1);
+  z-index: 1;
+}
+
+.row .container .img15:focus,
+.row .container .img15:hover{
+  transform: scale(1.1);
+  z-index: 1;
+}
+
+.row .container .img16:focus,
+.row .container .img16:hover{
+  transform: scale(1.1);
+  z-index: 1;
+}
+
+.row .container .img17:focus,
+.row .container .img17:hover:hover{
+  transform: scale(1.1);
+  z-index: 1;
+}
+
+.img12 img{
+  width: 378px;
+  height: 328px;
+  margin-top: -320px;
+  margin-left: 50px;
+}
+
+.img13 img{
+  width: 378px;
+  height: 328px;
+  margin-top: 60px;
+  margin-left: 480px;
+}
+
+.img14 img{
+  width: 378px;
+  height: 328px;
+  margin-top: 60px;
+  margin-left: 910px;
+}
+
+.img15 img{
+  width: 378px;
+  height: 328px;
+  margin-top: 420px;
+  margin-left: 50px;
+}
+
+.img16 img{
+  width: 378px;
+  height: 328px;
+  margin-top: 58px;
+  margin-left: 480px;
+}
+
+.img17 img{
+  width: 378px;
+  height: 328px;
+  margin-top: 58px;
+  margin-left: 910px;
+}
+
+.busy{
+  background-color: gainsboro;
+  margin-top: 140px;
+  width: 1488px;
+  height: 700px;
+}
+
+.busy h3{
+  color: orangered;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-left: 580px;
+}
+
+.busy h1{
+  margin-left: 440px;
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+}
+
+.new{
+  width: 600px;
+  height: 279px;
+  margin-top: 160px;
+  margin-left: 170px;
+  background-color: white;
+}
+
+.new img{
+  width: 470px;
+  height: 44px;
+  margin-top: 35px;
+  margin-left: 59px;
+}
+
+.new h2{
+  margin-top: 36px;
+  margin-left: 59px;
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  color: gray;
+}
+
+.new h1{
+  font-family: 'Times New Roman', Times, serif; 
+  font-size: 20px;
+  margin-left: 59px;
+  margin-top: 26px;
+}
+
+.new iframe{
+  margin: 99px;
+  margin-top: -261px;
+  margin-left: 620px;
+  width: 500px;
+  height: 279px;
+}
+
+.link h3{
+  margin-top: 190px;
+  margin-left: 630px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+  color: orangered;
+}
+
+.form-control1{
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-control1 input{
+  padding: 8px;
+  width: 420px;   
+  margin-top: 80px; 
+  margin-left: 460px;
+  color: #fe562e;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 10px gray;
+  border-radius: 1px;
+  outline: none;
+  border: 1px solid #ffffff;
+}
+
+.form-control2{
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-control2 input{
+  padding: 8px;
+  width: 420px;   
+  margin-top: 4px; 
+  margin-left: 460px;
+  color: #fe562e;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 10px gray;
+  border-radius: 1px;
+  outline: none;
+  border: 1px solid #ffffff;
+}
+
+.form-control3{
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-control3 input{
+  height: 128px;
+  padding: 8px;
+  width: 420px;   
+  margin-top: 4px; 
+  margin-left: 460px;
+  color: #fe562e;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 10px gray;
+  border-radius: 1px;
+  outline: none;
+  border: 1px solid #ffffff;
+}
+
+.btn1{
+  padding: 4px 20px;
+  width: 140px;
+  height: 40px;
+  margin-left: 620px;
+  border: none;
+  font-size: 70%;
+  background-color: orangered;
+  color: #fff;
+  border-radius: 6px;
+  margin-top: 50px;
+  box-shadow: 0px 0px 20px orangered;
+  cursor: pointer;
+}
+
+.btn1:hover {
+  background: #fff;
+  color: #000;
+  border: 0.5px solid rgba(0, 0, 0, 0.4);
+}
+
+.pid{
+  margin-top: 130px;
+  height: 234px;
+  background-color: #191d1f;
+}
+
+.pid h1{
+  margin-top: 74px;
+  margin-left: 398px;
+  color: grey;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 17px;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Goreamex.</title>
+    <link rel="stylesheet" href="Goreamex.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+      <header class="header">
+        <a href="#" class="logo">Goreamex.</a>
+        <h5>WE`RE GOREAMEX RESTAURANT</h5>
+        <h1>MAKING DELICIOUS<br>&nbsp;&nbsp;&nbsp;PREMIUM FOOD</h1>
+        <h4>Welcome to our restaurant! If you want to make a reservation, please,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;push the button below. Enjoy your meal!</h4>
+         <button class="btn">BOOK A TABLE</button>
+        <nav class="nav-items">
+            <a href="#">HOME</a>
+            <a href="#">ABOUT</a>
+            <a href="#">SERVICE</a>          
+            <a href="#">TEAM</a>
+            <a href="#">PAGES</a>
+            <a href="#">GELLERY</a>
+            <a href="#">RESERVATION</a>
+            <a href="#">BLOG</a>
+            <a href="#">CONTACT</a>
+        </nav>
+      </header>
+      <div class="col">      
+        <b style="color: gainsboro;">.J</b>
+        <h1>INTRODUCE</h1>
+          <h2>COLLEGE OF ART UNDER THE GUIDANCE OF FOOD.</h2>
+          <p>Goreamex is a restaurant, bar and coffee roastery located on a busy<br>corner site in Farringdon’s Exmouth Market. With glazed frontage on two<br>sides of the building. Far far away, behind the word mountains, far from<br>the countries Vokalia and Consonantia.<br><br>There live the blind texts. Separated they live in Bookmarksgrove right at<br>the coast of the Semantics, a large language ocean.</p>
+            <img src="https://alibaba-merkstein.de/wp-content/uploads/2016/02/home_kebab_box_2-1.png" alt="">
+        </div>        
+        <div class="height">
+          <h4>TODAY'S SPECIAL</h4>
+          <h1>FRESH AND DELICIOUS</h1>
+          <img src="file:///C:/Users/Asmae/Pictures/Capture%20d%E2%80%99%C3%A9cran%202022-11-26%20165537.jpg" alt="">
+        </div>
+        <div class="weight">
+         <img src="https://vaselin.heroinewarrior.com/wp-content/uploads/2022/01/Comment-cuire-un-steak-comme-au-restaurant.jpg" alt="">
+         <h2>Beefsteak ........................................</h2>
+         <h3>$25.99</h3>
+        </div>
+        <div class="corner">
+          <img src="https://scontent-mad1-1.xx.fbcdn.net/v/t1.15752-9/316808516_453958733583227_4508226550254718776_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeG7tZYUmhyF-e5ZXP1uz4Zzmq6CGGuiLNWaroIYa6Is1bB0LuNok2DwYt0wDsXymuskClJjKPZ9UCdex8oNWbCO&_nc_ohc=WYovy7N9zQwAX_1y1SE&_nc_ht=scontent-mad1-1.xx&oh=03_AdRrqkPW2JTNJZo8lxwAhw1u42Q9l6TbnA5tjRiF7vmsLA&oe=63AAE1C6" alt="">
+          <h2>Rocky Mountain oysters ...................</h2>
+          <h3>$25.99</h3>
+        </div>
+        <div class="border">
+          <img src="https://scontent.frba4-1.fna.fbcdn.net/v/t1.15752-9/316714177_834398397772098_3215026047918453845_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeFpG3JoFGR8yj4unoIscc45yGpEgouaIWnIakSCi5ohaW3Km9-ECyngv0y0_k3kr7D9Xu22oWyGmUjxPu3ianUz&_nc_ohc=6IZ3gyJQkn0AX8AZDyN&_nc_ht=scontent.frba4-1.fna&oh=03_AdS9o4oBGC1ULKjQ7CO6GYTtB7Ike-uH0tyBDc2SMd862Q&oe=63AAC49A" alt="">
+          <h2>Empal gentong ...............................</h2>
+          <h3>$25.99</h3>
+        </div>
+         <div class="menu">     
+          <a>.</a>   
+         </div>
+         <div class="menu-dejeuner">
+            <h3>OUR MENU</h3>
+            <h1>HEALTHY & TASTY</h1>
+          <div class="img1">
+            <img src="https://vaselin.heroinewarrior.com/wp-content/uploads/2022/01/Comment-cuire-un-steak-comme-au-restaurant.jpg" alt="">
+            <h2>Beefsteak ...............................................................</h2>
+            <h3>$25.99</h3>
+            <h4>The best steak you have ever tried. The secret is in the<br>sauce.</h4>
+          </div>  
+          <div class="img2">
+            <img src="https://cdn11.bigcommerce.com/s-hd6k9/images/stencil/2048x2048/products/106/324/gnocchi_chcr__08289.1438442426.jpg?c=2" alt="">
+            <h2>Baked Crab Cheese ..............................................</h2>
+            <h3>$25.99</h3>
+            <h4>Traditionally, baked crab cheese comes before dessert at<br>the end of a large meal.</h4>
+          </div> 
+          <div class="img3">
+            <img src="https://th.bing.com/th/id/R.68d93ac02f1d0c142ab34a9f996ba4c4?rik=SY%2fzmM1Efa0m5A&pid=ImgRaw&r=0" alt="">
+            <h2>Foie Gras ...............................................................</h2>
+            <h3>$25.99</h3>
+            <h4>One of the most famous dishes, cooked by our chef with a<br>secret ingredient.</h4>
+          </div> 
+          <div class="img4">
+            <img src="https://th.bing.com/th/id/OIP.YJmfVE79EcFuMe4L7K8OaAHaI7?pid=ImgDet&rs=1" alt="">
+            <h2>Cheese Shrimp Roll ..............................................</h2>
+            <h3>$25.99</h3>
+            <h4>Yes, shrimps in cheese are delicious. Just taste them and<br>you will like it.</h4>
+          </div> 
+          <div class="img5">
+            <img src="https://www.tomorrowsfish.com.au/wp-content/uploads/2017/08/Crispy-fried-Squid-Rings.jpg" alt="">
+            <h2>Crispy Squid ...............................................</h2>
+            <h3>$25.99</h3>
+            <h4>Another amazing sea meal. If you are passionate about<br>mollusc, this dish is for you.</h4>
+          </div>
+          <div class="img6">
+            <img src="https://www.receitasja.com/wp-content/uploads/2013/05/carre-porco-rj-292x300.jpg" alt="">
+            <h2>Roasted Chicken ........................................</h2>
+            <h3>$25.99</h3>
+            <h4>If you want, we can roast or grill your chicken stake of any<br>size.</h4>
+          </div>
+          <div class="img7">
+            <img src="https://th.bing.com/th/id/OIP.ZafsY7ZMjPs-t63LwQFjNwHaHa?pid=ImgDet&rs=1" alt="">
+            <h2>Caprese Salad .............................................</h2>
+            <h3>$25.99</h3>
+            <h4>Fantastic mixture of bacon, walnuts and other exotic<br>comportents.</h4>
+          </div>
+          <div class="img8">
+            <img src="https://th.bing.com/th/id/R.c38a4c70b9cbc29206fb2e01eabfdde0?rik=dAtyWVG8AsWsDw&riu=http%3a%2f%2fwww.rothcheese.com%2fwp-content%2fuploads%2f2018%2f01%2fCauliflowerCheddarSoup-02-NEW-e1515005842574-374x374.jpg&ehk=rLdZW3yDkVgFPwp%2fbHMsULxwfnBt3qtCwXyxB1uVTHE%3d&risl=&pid=ImgRaw&r=0" alt="">
+            <h2>Chicken Soup ..............................................</h2>
+            <h3>$25.99</h3>
+            <h4>The best chicken soup ever, made with fresh water,<br>vegetables and love.</h4>
+          </div>
+          </div>
+          <div class="chais">
+            <h3>OUR TEAM</h3>
+            <h1>BEST CHEFS IN KITCHEN</h1>
+          </div>
+          <div class="img9">
+            <img src="https://template59457.motopreview.com/mt-demo/59400/59457/mt-content/uploads/2017/02/mt-0863-home-best-chefs1.jpg" alt="">
+          </div>
+          <div class="img10">
+            <img src="https://template59457.motopreview.com/mt-demo/59400/59457/mt-content/uploads/2017/02/mt-0863-home-best-chefs2.jpg" alt="">
+          </div>
+          <div class="img11">
+            <img src="https://template59457.motopreview.com/mt-demo/59400/59457/mt-content/uploads/2017/02/mt-0863-home-best-chefs3.jpg" alt="">
+          </div>
+          <div class="bil">
+            <h1>Ben Sheridan</h1>
+            <h3>Chief Cook</h3>
+            <h2>______</h2>
+            <h4>Ben is a professional of the top level with many years<br>of experience in food service industry. His kitchen<br>works like a clock.</h4>
+            <a href="#" class="forget-pass" >READ MORE</a>
+          </div>            
+          <div class="net">
+            <h1>Linda Ray</h1>
+            <h3>Sous Chef</h3>
+            <h2>______</h2>
+            <h4>Linda is not only a talented sous chef, she is a true<br>handy lady with a lot of skills that she got in different<br>restaurants all over the world.</h4>
+            <a href="#" class="forget-pass" >READ MORE</a>
+          </div>   
+          <div class="our">
+            <h1>Brandon Hernandez</h1>
+            <h3>Sous Chef</h3>
+            <h2>______</h2>
+            <h4>Brandon is a master of cooking. His talent helps him to<br>come up with new recipes for our menu, which you can<br>see and taste in our restaurant.</h4>
+            <a href="#" class="forget-pass" >READ MORE</a>
+          </div>   
+          <div class="not">
+            <h3 style="background-color: #434f53;">GALLERY</h3>
+            <h1 style="background-color: #434f53;">FAVORITE FOOD OF OUR VISITORS</h1>
+          </div>        
+        <div class="hero-section">
+          <div class="row">
+            <div class="container">
+            <div class="img12">
+              <img src="https://template59457.motopreview.com/mt-demo/59400/59457/mt-content/uploads/2017/02/mt-0863-home-gallery1.jpg" alt="">
+            </div>
+            <div class="container">
+              <div class="img13">
+              <img src="https://template59457.motopreview.com/mt-demo/59400/59457/mt-content/uploads/2017/02/mt-0863-home-gallery2.jpg" alt="">
+            </div>
+            <div class="container">
+              <div class="img14">
+                <img src="https://template59457.motopreview.com/mt-demo/59400/59457/mt-content/uploads/2017/02/mt-0863-home-gallery3.jpg" alt="">
+            </div>
+            <div class="container">
+            <div class="img15">
+              <img src="https://template59457.motopreview.com/mt-demo/59400/59457/mt-content/uploads/2017/02/mt-0863-home-gallery4.jpg" alt="">
+            </div>
+          </div>
+          <div class="container">
+            <div class="img16">
+              <img src="https://template59457.motopreview.com/mt-demo/59400/59457/mt-content/uploads/2017/02/mt-0863-home-gallery5.jpg" alt="">
+            </div>
+            <div class="container">
+              <div class="img17">
+                <img src="https://template59457.motopreview.com/mt-demo/59400/59457/mt-content/uploads/2017/02/mt-0863-home-gallery6.jpg" alt="">
+              </div>
+          </div>
+        </div>
+        <div class="busy">
+         <h3>TESTIMONIALS</h3>
+         <h1>WHAT SAYS OUR CLIENTS</h1>
+         <div class="new">
+          <img src="https://template59457.motopreview.com/mt-demo/59400/59457/mt-content/uploads/2017/02/mt-0863-home-testimonials3.png" alt="">
+          <h2>“ The restaurant offers a variety of coffee, even for<br>the very picky customers! Just like me. I am a true fan<br>of coffee and this place is now occupied by me. ”</h2>
+          <h1>Kate Murray</h1>
+          <iframe src="https://www.youtube.com/embed/Scxs7L0vhZ4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        </div>        
+       </div>
+        <div class="link">
+          <h3>RESERVATION</h3>
+        </div>
+        <div class="form-control1">
+          <input type="text" placeholder="Your Name *">
+        </div>
+        <div class="form-control2">
+          <input type="password" placeholder="Email *">
+        </div>
+        <div class="form-control3">
+          <input type="password" placeholder="Message *">
+        </div>
+        <button class="btn1">BOOK A TABLE</button>
+            </div>
+            </div>
+          </div>
+        </div>
+       </div> 
+       <div class="pid">
+          <h4>.</h4>
+          <h1>14 Tottenham Court Road, London, England - (102) 3456 789 - info@yourdomaim.com<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Copyright © 2019 Goreamex Restaurant</h1>
+       </div>
+      </body> 
+</html>
