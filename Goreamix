@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Goreamex.</title>
+    <link rel="stylesheet" href="Goreamex.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+      <header class="header">
+        <a href="#" class="logo">Goreamex.</a>
+        <h5>WE`RE GOREAMEX RESTAURANT</h5>
+        <h1>MAKING DELICIOUS<br>&nbsp;&nbsp;&nbsp;PREMIUM FOOD</h1>
+        <h4>Welcome to our restaurant! If you want to make a reservation, please,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;push the button below. Enjoy your meal!</h4>
+         <button class="btn">BOOK A TABLE</button>
+        <nav class="nav-items">
+            <a href="#">HOME</a>
+            <a href="#">ABOUT</a>
+            <a href="#">SERVICE</a>          
+            <a href="#">TEAM</a>
+            <a href="#">PAGES</a>
+            <a href="#">GELLERY</a>
+            <a href="#">RESERVATION</a>
+            <a href="#">BLOG</a>
+            <a href="#">CONTACT</a>
+        </nav>
+      </header>
+      <div class="col">      
+        <b style="color: gainsboro;">.J</b>
+        <h1>INTRODUCE</h1>
+          <h2>COLLEGE OF ART UNDER THE GUIDANCE OF FOOD.</h2>
+          <p>Goreamex is a restaurant, bar and coffee roastery located on a busy<br>corner site in Farringdon’s Exmouth Market. With glazed frontage on two<br>sides of the building. Far far away, behind the word mountains, far from<br>the countries Vokalia and Consonantia.<br><br>There live the blind texts. Separated they live in Bookmarksgrove right at<br>the coast of the Semantics, a large language ocean.</p>
+            <img src="https://alibaba-merkstein.de/wp-content/uploads/2016/02/home_kebab_box_2-1.png" alt="">
+        </div>        
+        <div class="height">
+          <h4>TODAY'S SPECIAL</h4>
+          <h1>FRESH AND DELICIOUS</h1>
+          <img src="file:///C:/Users/Asmae/Pictures/Capture%20d%E2%80%99%C3%A9cran%202022-11-26%20165537.jpg" alt="">
+        </div>
+        <div class="weight">
+         <img src="https://vaselin.heroinewarrior.com/wp-content/uploads/2022/01/Comment-cuire-un-steak-comme-au-restaurant.jpg" alt="">
+         <h2>Beefsteak ........................................</h2>
+         <h3>$25.99</h3>
+        </div>
+        <div class="corner">
+          <img src="https://scontent-mad1-1.xx.fbcdn.net/v/t1.15752-9/316808516_453958733583227_4508226550254718776_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeG7tZYUmhyF-e5ZXP1uz4Zzmq6CGGuiLNWaroIYa6Is1bB0LuNok2DwYt0wDsXymuskClJjKPZ9UCdex8oNWbCO&_nc_ohc=WYovy7N9zQwAX_1y1SE&_nc_ht=scontent-mad1-1.xx&oh=03_AdRrqkPW2JTNJZo8lxwAhw1u42Q9l6TbnA5tjRiF7vmsLA&oe=63AAE1C6" alt="">
+          <h2>Rocky Mountain oysters ...................</h2>
+          <h3>$25.99</h3>
+        </div>
+        <div class="border">
+          <img src="https://scontent.frba4-1.fna.fbcdn.net/v/t1.15752-9/316714177_834398397772098_3215026047918453845_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeFpG3JoFGR8yj4unoIscc45yGpEgouaIWnIakSCi5ohaW3Km9-ECyngv0y0_k3kr7D9Xu22oWyGmUjxPu3ianUz&_nc_ohc=6IZ3gyJQkn0AX8AZDyN&_nc_ht=scontent.frba4-1.fna&oh=03_AdS9o4oBGC1ULKjQ7CO6GYTtB7Ike-uH0tyBDc2SMd862Q&oe=63AAC49A" alt="">
+          <h2>Empal gentong ...............................</h2>
+          <h3>$25.99</h3>
+        </div>
+         <div class="menu">     
+          <a>.</a>   
+         </div>
+         <div class="menu-dejeuner">
+            <h3>OUR MENU</h3>
+            <h1>HEALTHY & TASTY</h1>
+          <div class="img1">
+            <img src="https://vaselin.heroinewarrior.com/wp-content/uploads/2022/01/Comment-cuire-un-steak-comme-au-restaurant.jpg" alt="">
+            <h2>Beefsteak ...............................................................</h2>
+            <h3>$25.99</h3>
+            <h4>The best steak you have ever tried. The secret is in the<br>sauce.</h4>
+          </div>  
+          <div class="img2">
+            <img src="https://cdn11.bigcommerce.com/s-hd6k9/images/stencil/2048x2048/products/106/324/gnocchi_chcr__08289.1438442426.jpg?c=2" alt="">
+            <h2>Baked Crab Cheese ..............................................</h2>
+            <h3>$25.99</h3>
+            <h4>Traditionally, baked crab cheese comes before dessert at<br>the end of a large meal.</h4>
+          </div> 
+          <div class="img3">
+            <img src="https://th.bing.com/th/id/R.68d93ac02f1d0c142ab34a9f996ba4c4?rik=SY%2fzmM1Efa0m5A&pid=ImgRaw&r=0" alt="">
+            <h2>Foie Gras ...............................................................</h2>
+            <h3>$25.99</h3>
+            <h4>One of the most famous dishes, cooked by our chef with a<br>secret ingredient.</h4>
+          </div> 
+          <div class="img4">
+            <img src="https://th.bing.com/th/id/OIP.YJmfVE79EcFuMe4L7K8OaAHaI7?pid=ImgDet&rs=1" alt="">
+            <h2>Cheese Shrimp Roll ..............................................</h2>
+            <h3>$25.99</h3>
+            <h4>Yes, shrimps in cheese are delicious. Just taste them and<br>you will like it.</h4>
+          </div> 
+          <div class="img5">
+            <img src="https://www.tomorrowsfish.com.au/wp-content/uploads/2017/08/Crispy-fried-Squid-Rings.jpg" alt="">
+            <h2>Crispy Squid ...............................................</h2>
+            <h3>$25.99</h3>
+            <h4>Another amazing sea meal. If you are passionate about<br>mollusc, this dish is for you.</h4>
+          </div>
+          <div class="img6">
+            <img src="https://www.receitasja.com/wp-content/uploads/2013/05/carre-porco-rj-292x300.jpg" alt="">
+            <h2>Roasted Chicken ........................................</h2>
+            <h3>$25.99</h3>
+            <h4>If you want, we can roast or grill your chicken stake of any<br>size.</h4>
+          </div>
+          <div class="img7">
+            <img src="https://th.bing.com/th/id/OIP.ZafsY7ZMjPs-t63LwQFjNwHaHa?pid=ImgDet&rs=1" alt="">
+            <h2>Caprese Salad .............................................</h2>
+            <h3>$25.99</h3>
+            <h4>Fantastic mixture of bacon, walnuts and other exotic<br>comportents.</h4>
+          </div>
+          <div class="img8">
+            <img src="https://th.bing.com/th/id/R.c38a4c70b9cbc29206fb2e01eabfdde0?rik=dAtyWVG8AsWsDw&riu=http%3a%2f%2fwww.rothcheese.com%2fwp-content%2fuploads%2f2018%2f01%2fCauliflowerCheddarSoup-02-NEW-e1515005842574-374x374.jpg&ehk=rLdZW3yDkVgFPwp%2fbHMsULxwfnBt3qtCwXyxB1uVTHE%3d&risl=&pid=ImgRaw&r=0" alt="">
+            <h2>Chicken Soup ..............................................</h2>
+            <h3>$25.99</h3>
+            <h4>The best chicken soup ever, made with fresh water,<br>vegetables and love.</h4>
+          </div>
+          </div>
+          <div class="chais">
+            <h3>OUR TEAM</h3>
+            <h1>BEST CHEFS IN KITCHEN</h1>
+          </div>
+          <div class="img9">
+            <img src="https://template59457.motopreview.com/mt-demo/59400/59457/mt-content/uploads/2017/02/mt-0863-home-best-chefs1.jpg" alt="">
+          </div>
+          <div class="img10">
+            <img src="https://template59457.motopreview.com/mt-demo/59400/59457/mt-content/uploads/2017/02/mt-0863-home-best-chefs2.jpg" alt="">
+          </div>
+          <div class="img11">
+            <img src="https://template59457.motopreview.com/mt-demo/59400/59457/mt-content/uploads/2017/02/mt-0863-home-best-chefs3.jpg" alt="">
+          </div>
+          <div class="bil">
+            <h1>Ben Sheridan</h1>
+            <h3>Chief Cook</h3>
+            <h2>______</h2>
+            <h4>Ben is a professional of the top level with many years<br>of experience in food service industry. His kitchen<br>works like a clock.</h4>
+            <a href="#" class="forget-pass" >READ MORE</a>
+          </div>            
+          <div class="net">
+            <h1>Linda Ray</h1>
+            <h3>Sous Chef</h3>
+            <h2>______</h2>
+            <h4>Linda is not only a talented sous chef, she is a true<br>handy lady with a lot of skills that she got in different<br>restaurants all over the world.</h4>
+            <a href="#" class="forget-pass" >READ MORE</a>
+          </div>   
+          <div class="our">
+            <h1>Brandon Hernandez</h1>
+            <h3>Sous Chef</h3>
+            <h2>______</h2>
+            <h4>Brandon is a master of cooking. His talent helps him to<br>come up with new recipes for our menu, which you can<br>see and taste in our restaurant.</h4>
+            <a href="#" class="forget-pass" >READ MORE</a>
+          </div>   
+          <div class="not">
+            <h3 style="background-color: #434f53;">GALLERY</h3>
+            <h1 style="background-color: #434f53;">FAVORITE FOOD OF OUR VISITORS</h1>
+          </div>        
+        <div class="hero-section">
+          <div class="row">
+            <div class="container">
+            <div class="img12">
+              <img src="https://template59457.motopreview.com/mt-demo/59400/59457/mt-content/uploads/2017/02/mt-0863-home-gallery1.jpg" alt="">
+            </div>
+            <div class="container">
+              <div class="img13">
+              <img src="https://template59457.motopreview.com/mt-demo/59400/59457/mt-content/uploads/2017/02/mt-0863-home-gallery2.jpg" alt="">
+            </div>
+            <div class="container">
+              <div class="img14">
+                <img src="https://template59457.motopreview.com/mt-demo/59400/59457/mt-content/uploads/2017/02/mt-0863-home-gallery3.jpg" alt="">
+            </div>
+            <div class="container">
+            <div class="img15">
+              <img src="https://template59457.motopreview.com/mt-demo/59400/59457/mt-content/uploads/2017/02/mt-0863-home-gallery4.jpg" alt="">
+            </div>
+          </div>
+          <div class="container">
+            <div class="img16">
+              <img src="https://template59457.motopreview.com/mt-demo/59400/59457/mt-content/uploads/2017/02/mt-0863-home-gallery5.jpg" alt="">
+            </div>
+            <div class="container">
+              <div class="img17">
+                <img src="https://template59457.motopreview.com/mt-demo/59400/59457/mt-content/uploads/2017/02/mt-0863-home-gallery6.jpg" alt="">
+              </div>
+          </div>
+        </div>
+        <div class="busy">
+         <h3>TESTIMONIALS</h3>
+         <h1>WHAT SAYS OUR CLIENTS</h1>
+         <div class="new">
+          <img src="https://template59457.motopreview.com/mt-demo/59400/59457/mt-content/uploads/2017/02/mt-0863-home-testimonials3.png" alt="">
+          <h2>“ The restaurant offers a variety of coffee, even for<br>the very picky customers! Just like me. I am a true fan<br>of coffee and this place is now occupied by me. ”</h2>
+          <h1>Kate Murray</h1>
+          <iframe src="https://www.youtube.com/embed/Scxs7L0vhZ4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        </div>        
+       </div>
+        <div class="link">
+          <h3>RESERVATION</h3>
+        </div>
+        <div class="form-control1">
+          <input type="text" placeholder="Your Name *">
+        </div>
+        <div class="form-control2">
+          <input type="password" placeholder="Email *">
+        </div>
+        <div class="form-control3">
+          <input type="password" placeholder="Message *">
+        </div>
+        <button class="btn1">BOOK A TABLE</button>
+            </div>
+            </div>
+          </div>
+        </div>
+       </div> 
+       <div class="pid">
+          <h4>.</h4>
+          <h1>14 Tottenham Court Road, London, England - (102) 3456 789 - info@yourdomaim.com<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Copyright © 2019 Goreamex Restaurant</h1>
+       </div>
+      </body> 
+</html>
