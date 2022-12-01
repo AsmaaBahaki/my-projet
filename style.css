@@ -288,6 +288,7 @@ body {
 
 .menu-dejeuner .menu-cards .menu-card {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
 }
 
@@ -299,7 +300,7 @@ body {
 }
 
 .menu-dejeuner .menu-cards .menu-card .menu-card-text {
-  margin: 0 1rem;
+/*   margin: 0 1rem; */
 }
 
 .menu-dejeuner .menu-cards .menu-card .menu-card-text h2 {
@@ -353,6 +354,11 @@ body {
   width: 100%;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
   padding: 0.8rem;
+}
+
+.team-section .team-cards .chef-card img {
+  width: 100%;
+  mx-width: 100%;
 }
 
 .team-section .team-cards .chef-card h1 {
