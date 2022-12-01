@@ -290,6 +290,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  gap: 1rem;
 }
 
 .menu-dejeuner .menu-cards .menu-card img {
@@ -300,7 +301,7 @@ body {
 }
 
 .menu-dejeuner .menu-cards .menu-card .menu-card-text {
-/*   margin: 0 1rem; */
+/* margin: 0 1rem; */
 }
 
 .menu-dejeuner .menu-cards .menu-card .menu-card-text h2 {
