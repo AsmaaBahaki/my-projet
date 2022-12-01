@@ -1,0 +1,565 @@
+@import url("https://fonts.googleapis.com/css2?family=Sriracha&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  box-sizing: border-box;
+  width: 100%;
+}
+
+/* CSS for header */
+.header {
+  position: fixed;
+  z-index: 99;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 80px;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1rem;
+  transition: background 0.3s ease-in-out;
+}
+
+.header .logo {
+  font-size: 25px;
+  font-family: "Sriracha", cursive;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+.header .nav-items {
+  display: flex;
+  align-items: center;
+}
+
+.header .nav-items a {
+  text-decoration: none;
+  color: white;
+  margin-left: 1rem;
+}
+
+.header .toggle-menu {
+  height: 35px;
+  width: 35px;
+  display: grid;
+  place-items: center;
+}
+
+.header .toggle-menu .open-menu,
+.header .toggle-menu .close-menu {
+  color: #fff;
+  font-size: 2rem;
+  display: none;
+  cursor: pointer;
+}
+
+/* CSS for home */
+.home-section {
+  position: relative;
+  z-index: 1;
+  min-height: 100vh;
+  /* background-image: url(https://i.pinimg.com/originals/ac/ef/de/acefde324bfafb5e6eb7ae77f8d5e0a9.jpg); */
+  padding: 100px 0;
+  background-image: url(https://images.unsplash.com/photo-1516684465974-78661ba8165d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+}
+
+.home-section::before {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  background-color: rgba(61, 63, 66, 0.5);
+}
+
+.home-section .text-content {
+  background-color: rgba(70, 70, 70, 0.5);
+  padding: 3rem 2rem;
+  max-width: 800px;
+}
+
+.home-section h5 {
+  font-family: "Lato", sans-serif;
+  color: white;
+  font-size: large;
+}
+
+.home-section h1 {
+  color: white;
+  font-family: "Lato", sans-serif;
+  font-size: 70px;
+  line-height: 1.4;
+  margin: 1.5rem 0;
+}
+
+.home-section h4 {
+  color: #dddbdb;
+}
+
+.home-section .btn {
+  background-color: orangered;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+.home-section .btn:hover {
+  box-shadow: 0px 0px 12px rgba(255, 255, 255, 0.4);
+}
+
+@media (max-width: 900px) {
+  .header .nav-items {
+    position: absolute;
+    background-color: rgb(248, 98, 43);
+    width: calc(100% - 30px);
+    left: 15px;
+    top: 100%;
+    flex-direction: column;
+    padding: 1rem;
+    display: none;
+  }
+  .header .nav-items a {
+    width: 100%;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  .header .nav-items a:hover {
+    color: orangered;
+    background-color: #fff;
+  }
+
+  .header .toggle-menu .open-menu {
+    display: block;
+  }
+  .home-section h1 {
+    font-size: 50px;
+  }
+}
+
+/* Start Introduce */
+.col {
+  background-color: gainsboro;
+  min-height: 588px;
+  padding: 5rem 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.col h1 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 280%;
+}
+
+.col h2 {
+  margin-top: 36px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: orangered;
+}
+
+.col p {
+  color: gray;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-top: 50px;
+}
+
+.col img {
+  width: 100%;
+  max-width: 380px;
+  height: 500px;
+}
+
+@media (max-width: 660px) {
+  .col {
+    flex-direction: column;
+  }
+}
+/* End Introduce */
+
+/* ========= Start ========= */
+.height {
+  padding: 5rem 1rem;
+  width: 100%;
+}
+
+.height h4 {
+  color: orangered;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 19px;
+  text-align: center;
+}
+
+.height h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 39px;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.height .height-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.height .height-container .card {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.height .height-container .card img {
+  height: 400px;
+  min-height: 400px;
+  max-height: 400px;
+  min-width: 100%;
+  object-fit: cover;
+}
+
+.height .height-container .card .card-text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 1rem;
+}
+
+.height .height-container .card h2 {
+  font-family: "Lato", sans-serif;
+  font-size: 17px;
+}
+
+.height .height-container .card h3 {
+  color: orangered;
+  font-size: 20px;
+}
+
+/* ================ End ================ */
+
+.menu {
+  width: 100%;
+  height: 420px;
+  margin-top: 240px;
+  background-image: url(https://template59457.motopreview.com/mt-demo/59400/59457/mt-content/uploads/2017/02/mt-0863-home-content-bg.jpg);
+}
+
+.menu-dejeuner {
+  background-color: aliceblue;
+  border: 1px solid chocolate;
+  padding: 2rem 1rem;
+  min-height: 600px;
+  width: 100%;
+  max-width: 1259px;
+  margin-top: -520px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.menu-dejeuner h3 {
+  color: orangered;
+  text-align: center;
+}
+
+.menu-dejeuner h1 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 3rem;
+}
+
+.menu-dejeuner .menu-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+}
+
+.menu-dejeuner .menu-cards .menu-card {
+  display: flex;
+  align-items: center;
+}
+
+.menu-dejeuner .menu-cards .menu-card img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.menu-dejeuner .menu-cards .menu-card .menu-card-text {
+  margin: 0 1rem;
+}
+
+.menu-dejeuner .menu-cards .menu-card .menu-card-text h2 {
+  font-family: "Lato", sans-serif;
+  font-size: 13px;
+}
+
+.menu-dejeuner .menu-cards .menu-card .menu-card-text h4 {
+  color: gray;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11.5px;
+}
+
+.menu-dejeuner .menu-cards .menu-card h3 {
+  color: orangered;
+  font-size: 19px;
+}
+
+@media (max-width: 770px) {
+  .menu-dejeuner .menu-cards {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+}
+
+/* Start Team Section */
+.team-section {
+  width: 100%;
+  padding: 5rem 1rem;
+}
+
+.team-section .team-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.team-section .team-header h3 {
+  color: orangered;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.team-section .team-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 400px));
+  justify-content: center;
+  gap: 2rem;
+}
+
+.team-section .team-cards .chef-card {
+  width: 100%;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+  padding: 0.8rem;
+}
+
+.team-section .team-cards .chef-card h1 {
+  font-size: 19px;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.team-section .team-cards .chef-card h3 {
+  color: gray;
+  font-family: Georgia, Times, serif;
+  font-size: 12px;
+}
+
+.team-section .team-cards .chef-card h2 {
+  color: orangered;
+}
+
+.team-section .team-cards .chef-card h4 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: grey;
+  font-size: 15px;
+}
+
+.team-section .team-cards .chef-card .forget-pass {
+  text-decoration: none;
+  margin-top: 90%;
+  font: bold;
+  font-family: Georgia, serif;
+  font-weight: 900;
+  font-style: normal;
+  color: black;
+}
+/* End Teams Section */
+
+/* Start Gallery Section */
+.gallery-section {
+  width: 100%;
+  padding: 5rem 1rem;
+  background-color: #434f53;
+}
+
+.gallery-section .gallery-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+.gallery-section .gallery-header h3 {
+  color: darkorange;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.gallery-section .gallery-header h1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: white;
+}
+
+.gallery-section .gallery-images {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.2rem;
+}
+
+.gallery-section .gallery-images img {
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+  transform: scale(0.95);
+  transition: transform 0.3s ease-in-out;
+}
+
+.gallery-section .gallery-images img:hover {
+  transform: scale(1);
+}
+
+@media (max-width: 750px) {
+  .gallery-section .gallery-images {
+    grid-template-columns: 1fr;
+  }
+}
+/* End Gallery Section */
+
+/* Start Testimonials */
+.testimonials-section {
+  padding: 5rem 1rem;
+}
+
+.testimonials-section > h3 {
+  color: orangered;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+}
+
+.testimonials-section > h1 {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.testimonials-section .testimonials-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.testimonials-section .testimonials-content .testimonials-text {
+  min-height: 279px;
+  width: fit-content;
+  max-width: 100%;
+  padding: 2rem 1rem;
+}
+.testimonials-section .testimonials-content .testimonials-text img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+.testimonials-section .testimonials-content .testimonials-text h2 {
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  color: gray;
+  margin-top: 36px;
+}
+.testimonials-section .testimonials-content .testimonials-text h1 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  margin-top: 26px;
+}
+
+.testimonials-section .testimonials-content iframe {
+  width: 100%;
+  max-width: 500px;
+  height: 279px;
+}
+/* End Testimonials */
+
+/* Start Reservation Section */
+.reservation {
+  padding: 5rem 1rem;
+  background-color: #434f53;
+}
+.reservation h3 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: orangered;
+  text-align: center;
+}
+
+.reservation form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 520px;
+  margin: 1rem auto;
+}
+
+.reservation form input,
+.reservation form textarea {
+  font-size: 1.2rem;
+  padding: 8px 12px;
+  margin: 0.3rem 0;
+  color: #fe562e;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 10px gray;
+  border-radius: 1px;
+  outline: none;
+  border: 1px solid #ffffff;
+}
+
+.reservation form textarea {
+  height: 200px;
+  resize: none;
+}
+
+.reservation form button {
+  padding: 4px 20px;
+  width: 140px;
+  height: 40px;
+  border: none;
+  font-size: 70%;
+  background-color: orangered;
+  color: #fff;
+  border-radius: 6px;
+  box-shadow: 0px 0px 20px orangered;
+  margin: 0 auto;
+  margin-top: 1.2rem;
+  transition: 0.25s ease-in-out;
+  cursor: pointer;
+}
+
+.reservation form button:hover {
+  background: #fff;
+  color: #000;
+  border: 0.5px solid rgba(0, 0, 0, 0.4);
+}
+/* End Reservation Section */
+
+/* Start Footer Section */
+footer {
+  padding: 5rem 1rem;
+  background-color: #191d1f;
+}
+
+footer h1 {
+  color: #ddd;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 21px;
+  line-height: 2;
+  text-align: center;
+}
+/* End Footer Section */
